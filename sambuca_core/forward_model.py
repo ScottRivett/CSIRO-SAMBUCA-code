@@ -215,7 +215,7 @@ def forward_model(
 
     # Optical path elongation for scattered photons
     # elongation from water column
-    # TODO: reference to the paper from which these equations are derived
+    # TODO: reference to the paper from which these equations are derived - this is the Lee et al 1999 paper on RT equations
     du_column = 1.03 * np.power(1.00 + (2.40 * u), 0.50)
     # elongation from bottom
     du_bottom = 1.04 * np.power(1.00 + (5.40 * u), 0.50)
